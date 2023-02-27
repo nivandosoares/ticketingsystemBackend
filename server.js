@@ -30,10 +30,6 @@ app.get("/", (req, res) => {
   res.send("Invalid Route!");
 });
 
-app.get("/", (req, res) => {
-  res.send("Hello World!");
-});
-
 //set EJS as the view engine
 app.set("view engine", "ejs");
 
